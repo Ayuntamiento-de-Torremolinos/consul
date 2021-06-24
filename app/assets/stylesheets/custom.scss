@@ -2,3 +2,29 @@
 //
 // You can also create SCSS files in the app/assets/stylesheets/custom/
 // folder and they will be loaded automatically.
+
+// Auth Pages
+.auth-image {
+  background: $brand;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include breakpoint(medium) {
+    min-height: $line-height * 42;
+  }
+
+  h1 {
+    margin-top: $line-height;
+
+    a {
+      color: #fff;
+      display: block;
+      text-align: center;
+
+      @include breakpoint(medium) {
+        display: inline-block;
+        text-align: left;
+      }
+    }
+  }
+}
