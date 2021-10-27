@@ -21,6 +21,18 @@ class Verification::Residence
   private
 
     def valid_postal_code?
-      postal_code =~ /^280/
+      postal_code =~ /^29/
+    end
+
+    def retrieve_census_data
+      @census_data = CensusCaller.new.call(nil, document_number, nil, nil)
+    end
+
+    def residency_valid?
+      @census_data.valid?
+    end
+
+    def clean_document_number
+      self.document_number = document_number.gsub(/[^a-z0-9]+/i, "").upcase if document_number.present?
     end
 end
