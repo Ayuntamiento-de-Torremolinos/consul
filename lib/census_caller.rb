@@ -1,9 +1,9 @@
 class CensusCaller
   def call(document_type, document_number, date_of_birth, postal_code)
-    return Response.new if document_number.blank? || document_type.blank?
+    return Response.new if document_number.blank?
 
     if Setting["feature.remote_census"].present?
-      response = RemoteCensusApi.new.call(document_type, document_number, date_of_birth, postal_code)
+      response = RemoteCensusApi.new.call(nil, document_number, nil, nil)
     else
       response = CensusApi.new.call(document_type, document_number)
     end
