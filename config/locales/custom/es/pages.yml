@@ -6,11 +6,15 @@ es:
       description: Página de información sobre las condiciones de uso, privacidad y protección de datos personales.
     contact:
       title: "Comunicación de incidencia"
-      name: Nombre *
-      email: Email *
-      phone: Teléfono *
-      location: Lugar de la incidencia *
-      description: Descripción *
+      name: Nombre
+      email: Email
+      phone: Teléfono
+      location: Lugar de la incidencia
+      description: Descripción
+      file: Archivo adjunto (opcional)
+      terms_title: Al enviar este mensaje acepto las condiciones de uso
+      terms: Al enviar este mensaje acepto las %{terms}
+      terms_link: condiciones de uso
       submit: Enviar
       success: Mensaje enviado correctamente
     help:

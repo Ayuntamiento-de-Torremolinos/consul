@@ -28,11 +28,13 @@
       <%= f.text_area :description, rows: 7, required: true,
                                   label: t("pages.contact.description") %>
 
+      <%= f.file_field :attachment, label: t("pages.contact.file") %>
+
       <%= f.check_box :terms_of_service,
         required: true,
-        title: t("devise_views.users.registrations.new.terms_title"),
-        label: t("devise_views.users.registrations.new.terms",
-                 terms: link_to(t("devise_views.users.registrations.new.terms_link"), "/privacy",
+        title: t("pages.contact.terms_title"),
+        label: t("pages.contact.terms",
+                 terms: link_to(t("pages.contact.terms_link"), "/privacy",
                                 title: t("shared.target_blank"),
                                 target: "_blank")
                 ) %>

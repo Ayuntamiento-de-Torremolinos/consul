@@ -8,7 +8,8 @@ class ContactController < ApplicationController
   end
 
   def create
-    Mailer.contact('Nueva incidencia', contact_params).deliver_later
+    attachment_tmp_path = File.absolute_path(params[:attachment].tempfile) if params[:attachment].present?
+    Mailer.contact('Nueva incidencia', contact_params, attachment_tmp_path).deliver_later
     redirect_to root_path, notice: t("pages.contact.success")
   end
 

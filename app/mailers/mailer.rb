@@ -16,7 +16,7 @@ class Mailer < ApplicationMailer
     end
   end
 
-  def contact(subject, params)
+  def contact(subject, params, file)
     @message = params[:description]
     @subject = subject
     @name = t("mailers.contact.name", name: params[:name])
@@ -25,6 +25,7 @@ class Mailer < ApplicationMailer
     @location = t("mailers.contact.location", location: params[:location])
 
     @email_to = Rails.application.secrets.contact_email
+    attachments['documento-adjunto'] = File.read(file) unless file.nil?
 
     I18n.with_locale(I18n.default_locale) do
       mail(to: @email_to, subject: @subject)
