@@ -1,5 +1,10 @@
 es:
   mailers:
+    contact:
+      name: "Usuario: %{name}"
+      email: "Email: %{email}"
+      phone: "Teléfono: %{phone}"
+      location: "Lugar: %{location}"
     title: "Gobierno abierto"
     no_reply: "Este mensaje se ha enviado desde una dirección de correo electrónico que no admite respuestas."
     comment:

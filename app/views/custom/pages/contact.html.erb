@@ -1,0 +1,46 @@
+<%= content_for :body_class, "contact" %>
+
+<% provide :title do %><%= t("pages.contact.title") %><% end %>
+<div class="page-title">
+<div class="row margin-top">
+  <div class="small-12 medium-9 column">
+
+      <h1><%= t("pages.contact.title") %></h1>
+  </div>
+</div>
+</div>
+<%= form_with url: "/contact" do |f| %>
+<div class="row margin-top">
+  <div class="small-12 medium-9 column">
+    <div>
+      <%= f.hidden_field :locale, value: I18n.locale %>
+
+      <%= f.text_field :name, required: true,  autofocus: true, maxlength: 100, label: t("pages.contact.name") %>
+
+      <%= f.invisible_captcha :address %>
+
+      <%= f.email_field :email, required: true, label: t("pages.contact.email") %>
+
+      <%= f.text_field :phone, required: true, maxlength: 12, label: t("pages.contact.phone") %>
+
+      <%= f.text_field :location, required: true, maxlength: 100, label: t("pages.contact.location") %>
+
+      <%= f.text_area :description, rows: 7, required: true,
+                                  label: t("pages.contact.description") %>
+
+      <%= f.check_box :terms_of_service,
+        required: true,
+        title: t("devise_views.users.registrations.new.terms_title"),
+        label: t("devise_views.users.registrations.new.terms",
+                 terms: link_to(t("devise_views.users.registrations.new.terms_link"), "/privacy",
+                                title: t("shared.target_blank"),
+                                target: "_blank")
+                ) %>
+
+      <div class="small-12 medium-6 small-centered">
+        <%= f.submit t("pages.contact.submit"), class: "button expanded" %>
+      </div>
+    </div>
+  </div>
+</div>
+<% end %>

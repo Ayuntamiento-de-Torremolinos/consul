@@ -16,6 +16,21 @@ class Mailer < ApplicationMailer
     end
   end
 
+  def contact(subject, params)
+    @message = params[:description]
+    @subject = subject
+    @name = t("mailers.contact.name", name: params[:name])
+    @email = t("mailers.contact.email", email: params[:email])
+    @phone = t("mailers.contact.phone", phone: params[:phone])
+    @location = t("mailers.contact.location", location: params[:location])
+
+    @email_to = Rails.application.secrets.contact_email
+
+    I18n.with_locale(I18n.default_locale) do
+      mail(to: @email_to, subject: @subject)
+    end
+  end
+
   def reply(reply)
     @email = ReplyEmail.new(reply)
     @email_to = @email.to
