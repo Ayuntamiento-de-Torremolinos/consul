@@ -21,16 +21,16 @@ es:
         flash:
           success: Antes de las votaciones recibirás una carta con las instrucciones para verificar tu cuenta.<br> Recuerda que puedes ahorrar el envío verificándote presencialmente en cualquiera de las Oficinas de Atención al Ciudadano.
       edit:
-        see_all: Ver propuestas
+        see_all: Ver propuestas ciudadanas
         title: Carta solicitada
       errors:
         incorrect_code: Código de verificación incorrecto
       new:
         explanation: "Para participar en las votaciones finales puedes:"
-        go_to_index: Ver propuestas
+        go_to_index: Ver propuestas ciudadanas
         office: Verificarte presencialmente en cualquier Oficina de Atención al Ciudadano
         send_letter: Solicitar una carta por correo postal
-        title: '¡Felicidades!'
+        title: "¡Felicidades!"
         user_permission_info: Con tu cuenta ya puedes...
       update:
         flash:
@@ -68,7 +68,7 @@ es:
           success: Introduce el código de confirmación que te hemos enviado por mensaje de texto
       edit:
         resend_sms_link: Solicitar un nuevo código
-        resend_sms_text: '¿No has recibido un mensaje de texto con tu código de confirmación?'
+        resend_sms_text: "¿No has recibido un mensaje de texto con tu código de confirmación?"
         submit_button: Enviar
         title: SMS de confirmación
       new:
@@ -90,8 +90,8 @@ es:
     step_3: Verificación final
     user_permission_debates: Participar en debates
     user_permission_info: Al verificar tus datos podrás...
-    user_permission_proposal: Crear nuevas propuestas
-    user_permission_support_proposal: Apoyar propuestas
+    user_permission_proposal: Crear nuevas propuestas ciudadanas
+    user_permission_support_proposal: Apoyar propuestas ciudadanas
     user_permission_votes: Participar en las votaciones finales*
     verified_user:
       form:

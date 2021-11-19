@@ -3,7 +3,7 @@ es:
     comments:
       index:
         block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
+        confirm: "¿Estás seguro?"
         filter: Filtro
         filters:
           all: Todos
@@ -25,7 +25,7 @@ es:
     debates:
       index:
         block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
+        confirm: "¿Estás seguro?"
         filter: Filtrar
         filters:
           all: Todos
@@ -47,13 +47,13 @@ es:
       flagged_comments: Comentarios
       flagged_debates: Debates
       flagged_investments: Proyectos de gasto
-      proposals: Propuestas
-      proposal_notifications: Notificaciones de propuestas
+      proposals: Propuestas ciudadanas
+      proposal_notifications: Notificaciones de propuestas ciudadanas
       users: Bloquear usuarios
     proposals:
       index:
         block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
+        confirm: "¿Estás seguro?"
         filter: Filtro
         filters:
           all: Todas
@@ -61,18 +61,18 @@ es:
           with_ignored_flag: Marcadas como revisadas
         headers:
           moderate: Moderar
-          proposal: Propuesta
-        hide_proposals: Ocultar Propuestas
+          proposal: Propuesta ciudadana
+        hide_proposals: Ocultar Propuestas ciudadanas
         ignore_flags: Marcar como revisadas
         order: Ordenar por
         orders:
           created_at: Más recientes
           flags: Más denunciadas
-        title: Propuestas
+        title: Propuestas ciudadanas
     budget_investments:
       index:
         block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
+        confirm: "¿Estás seguro?"
         filter: Filtro
         filters:
           all: Todos
@@ -91,7 +91,7 @@ es:
     proposal_notifications:
       index:
         block_authors: Bloquear autores
-        confirm: '¿Estás seguro?'
+        confirm: "¿Estás seguro?"
         filter: Filtro
         filters:
           all: Todas
@@ -99,14 +99,14 @@ es:
           ignored: Marcadas como revisadas
         headers:
           moderate: Moderar
-          proposal_notification: Notificación de propuesta
+          proposal_notification: Notificación de propuesta ciudadana
         hide_proposal_notifications: Ocultar notificaciones
         ignore_flags: Marcar como revisadas
         order: Ordenar por
         orders:
           created_at: Más recientes
           moderated: Moderadas
-        title: Notificaciones de propuestas
+        title: Notificaciones de propuestas ciudadanas
     users:
       index:
         hidden: Bloqueado

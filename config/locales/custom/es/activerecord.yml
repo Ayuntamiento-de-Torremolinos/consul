@@ -104,8 +104,8 @@ es:
         one: "Proceso"
         other: "Procesos"
       legislation/proposal:
-        one: "Propuesta"
-        other: "Propuestas"
+        one: "Propuesta ciudadana"
+        other: "Propuestas ciudadanas"
       legislation/draft_versions:
         one: "Versión del borrador"
         other: "Versiones del borrador"
@@ -131,11 +131,11 @@ es:
         one: "Votación"
         other: "Votaciones"
       proposal_notification:
-        one: "Notificación de propuesta"
-        other: "Notificaciones de propuestas"
+        one: "Notificación de propuesta ciudadana"
+        other: "Notificaciones de propuestas ciudadanas"
       dashboard/action:
-        one: Acción del panel de control de propuestas
-        other: Acciones del panel de control de propuestas
+        one: Acción del panel de control de propuestas ciudadanas
+        other: Acciones del panel de control de propuestas ciudadanas
       dashboard/administrator_task:
         one: Tarea
         other: Tareas
@@ -250,15 +250,15 @@ es:
         title: "Título"
         question: "Pregunta"
         description: "Descripción"
-        responsible_name: "Nombre y apellidos de la persona que hace esta propuesta"
-        retired_reason: "Razón por la que se retira la propuesta"
+        responsible_name: "Nombre y apellidos de la persona que hace esta propuesta ciudadana"
+        retired_reason: "Razón por la que se retira la propuesta ciudadana"
         selected: "Marcar como seleccionada"
         terms_of_service: "Términos de servicio"
         video_url: "Enlace a vídeo externo"
       proposal/translation:
-        title: "Título de la propuesta"
-        description: "Texto desarrollado de la propuesta"
-        summary: "Resumen de la propuesta"
+        title: "Título de la propuesta ciudadana"
+        description: "Texto desarrollado de la propuesta ciudadana"
+        summary: "Resumen de la propuesta ciudadana"
         retired_explanation: "Explicación"
       user:
         login: "Email o nombre de usuario"
@@ -267,8 +267,8 @@ es:
         password_confirmation: "Confirmación de contraseña"
         password: "Contraseña"
         current_password: "Contraseña actual"
-        email_digest: "Recibir resumen de notificaciones sobre propuestas"
-        email_on_comment: "Recibir un email cuando alguien comenta en mis propuestas o debates"
+        email_digest: "Recibir resumen de notificaciones sobre propuestas ciudadanas"
+        email_on_comment: "Recibir un email cuando alguien comenta en mis propuestas ciudadanas o debates"
         email_on_comment_reply: "Recibir un email cuando alguien contesta a mis comentarios"
         email_on_direct_message: "Recibir emails con mensajes privados"
         newsletter: "Recibir emails con información interesante sobre la web"
@@ -279,7 +279,7 @@ es:
         public_activity: "Mostrar públicamente mi lista de actividades"
         public_interests: "Mostrar públicamente las etiquetas de los elementos que sigo"
         recommended_debates: "Mostrar recomendaciones en el listado de debates"
-        recommended_proposals: "Mostrar recomendaciones en el listado de propuestas"
+        recommended_proposals: "Mostrar recomendaciones en el listado de propuestas ciudadanas"
         redeemable_code: "Código de verificación por carta (opcional)"
       direct_message:
         title: "Título"
@@ -410,9 +410,9 @@ es:
         homepage: "Descripción"
         milestones_summary: Seguimiento del proceso
       legislation/proposal:
-        description: "Texto desarrollado de la propuesta"
-        summary: "Resumen de la propuesta"
-        title: "Título de la propuesta"
+        description: "Texto desarrollado de la propuesta ciudadana"
+        summary: "Resumen de la propuesta ciudadana"
+        title: "Título de la propuesta ciudadana"
         video_url: "Enlace a vídeo externo"
       legislation/draft_version:
         title: Título de la versión
@@ -483,14 +483,14 @@ es:
         description: Descripción
         link: Enlace externo
         request_to_administrators: Incluir en el recurso un botón para solicitar el recurso a los administradores
-        day_offset: '¿En cuántos días tras la creación de la propuesta quieres que se active?'
-        required_supports: '¿Cuántos apoyos tiene que conseguir la propuesta para que se active?'
+        day_offset: "¿En cuántos días tras la creación de la propuesta ciudadana quieres que se active?"
+        required_supports: "¿Cuántos apoyos tiene que conseguir la propuesta ciudadana para que se active?"
         order: Puedes introducir la posición en la que se mostrará al usuario esta acción en la lista de acciones
         active: Activa
         action_type: Tipo
-        action_type_proposed_action: "Acción propuesta"
+        action_type_proposed_action: "Acción propuesta ciudadana"
         action_type_resource: "Recurso"
-        published_proposal: "¿Para propuestas publicadas?"
+        published_proposal: "¿Para propuestas ciudadanas publicadas?"
       dashboard/administrator_task:
         source: Fuente
         user: Ejecutado por
@@ -572,7 +572,7 @@ es:
           attributes:
             document_number:
               not_in_census: "No verificado por Padrón"
-              already_voted: "Ya ha votado esta propuesta"
+              already_voted: "Ya ha votado esta propuesta ciudadana"
         site_customization/page:
           attributes:
             slug:

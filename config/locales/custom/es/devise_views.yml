@@ -45,7 +45,7 @@ es:
           password_label: Contraseña que utilizarás para acceder a este sitio web
           phone_number_label: Teléfono
           responsible_name_label: Nombre y apellidos de la persona responsable del colectivo
-          responsible_name_note: Será la persona representante de la asociación/colectivo en cuyo nombre se presenten las propuestas
+          responsible_name_note: Será la persona representante de la asociación/colectivo en cuyo nombre se presenten las propuestas ciudadanas
           submit: Registrarse
           title: Registrarse como organización / colectivo
         success:
@@ -64,7 +64,7 @@ es:
       new:
         email_label: Email
         send_submit: Recibir instrucciones
-        title: '¿Has olvidado tu contraseña?'
+        title: "¿Has olvidado tu contraseña?"
     sessions:
       new:
         login_label: Email o nombre de usuario
@@ -75,11 +75,11 @@ es:
     shared:
       links:
         login: Entrar
-        new_confirmation: '¿No has recibido instrucciones para confirmar tu cuenta?'
-        new_password: '¿Olvidaste tu contraseña?'
-        new_unlock: '¿No has recibido instrucciones para desbloquear?'
+        new_confirmation: "¿No has recibido instrucciones para confirmar tu cuenta?"
+        new_password: "¿Olvidaste tu contraseña?"
+        new_unlock: "¿No has recibido instrucciones para desbloquear?"
         signin_with_provider: Entrar con %{provider}
-        signup: '¿No tienes una cuenta? %{signup_link}'
+        signup: "¿No tienes una cuenta? %{signup_link}"
         signup_link: Regístrate
     unlocks:
       new:
@@ -96,7 +96,7 @@ es:
           title: Darme de baja
         edit:
           current_password_label: Contraseña actual
-          edit: Editar propuesta
+          edit: Editar propuesta ciudadana
           email_label: Email
           leave_blank: Dejar en blanco si no deseas cambiarla
           need_current: Necesitamos tu contraseña actual para confirmar los cambios
@@ -107,7 +107,7 @@ es:
         new:
           cancel: Cancelar login
           email_label: Tu correo electrónico
-          organization_signup: '¿Representas a una organización / colectivo? %{signup_link}'
+          organization_signup: "¿Representas a una organización / colectivo? %{signup_link}"
           organization_signup_link: Regístrate aquí
           password_confirmation_label: Repite la contraseña anterior
           password_label: Contraseña que utilizarás para acceder a este sitio web
