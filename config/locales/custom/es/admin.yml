@@ -517,13 +517,13 @@ es:
           banner_title: Colores del encabezado
         index:
           create: Nuevo proceso
-          title: Procesos de legislación colaborativa
+          title: Procesos de propuestas municipales
           filters:
             active: Activos
             all: Todos
         new:
           back: Volver
-          title: Crear nuevo proceso de legislación colaborativa
+          title: Crear nuevo proceso de propuesta municipal
           submit_button: Crear proceso
         proposals:
           select_order: Ordenar por
@@ -713,7 +713,7 @@ es:
       title_settings: Configuración
       title_site_customization: Contenido del sitio
       title_booths: Urnas de votación
-      legislation: Legislación colaborativa
+      legislation: Propuestas municipales
       users: Usuarios
       dashboard: Panel de progreso de propuestas ciudadanas
       administrator_tasks: Recursos solicitados
