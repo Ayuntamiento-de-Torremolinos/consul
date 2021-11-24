@@ -755,6 +755,7 @@ es:
       districts: "Distritos"
       districts_list: "Listado de distritos"
       categories: "Categorías"
+      select_district: "Toda la ciudad"
     target_blank: " (se abre en ventana nueva)"
     you_are_in: "Estás en"
     unflag: Deshacer denuncia
