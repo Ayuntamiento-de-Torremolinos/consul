@@ -37,7 +37,7 @@ es:
         figcaption: 'Botones "Estoy de acuerdo" y "No estoy de acuerdo" para valorar los debates.'
       proposals:
         title: "Propuestas ciudadanas"
-        description: "En la sección de %{link} puedes plantear propuestas ciudadanas para que el Ayuntamiento las lleve a cabo. Las propuestas ciudadanas recaban apoyos, y si alcanzan los apoyos suficientes se someten a votación ciudadana. Las propuestas ciudadanas aprobadas en estas votaciones ciudadanas son asumidas por el Ayuntamiento y se llevan a cabo."
+        description: "En la sección de %{link} puedes plantear propuestas y recabar apoyos para que el Ayuntamiento las lleve a cabo"
         link: "propuestas ciudadanas"
         image_alt: "Botón para apoyar una propuesta ciudadana"
         figcaption: 'Botón para "Apoyar" una propuesta ciudadana.'
